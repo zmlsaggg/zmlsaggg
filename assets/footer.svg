@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" fill="none" role="img" aria-label="zmlsaggg — Leksika, open source">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1280" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B0417"/>
+      <stop offset="0.5" stop-color="#150829"/>
+      <stop offset="1" stop-color="#0A0314"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#D946EF" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D946EF" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#7C3AED" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="hline" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#D946EF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="150" fill="url(#fbg)"/>
+  <rect x="0.5" y="0.5" width="1279" height="149" stroke="url(#hline)" stroke-opacity="0.35"/>
+
+  <text x="640" y="60" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" font-weight="500" letter-spacing="5" fill="#C084FC" fill-opacity="0.85">LEKSIKA · C · GO · AI AGENTS · OPEN SOURCE</text>
+
+  <path d="M0 104 C 130,74 250,126 380,100 C 510,74 630,128 760,100 C 890,72 1010,126 1140,100 C 1220,84 1250,92 1280,86 L1280 150 L0 150 Z" fill="url(#wave2)"/>
+  <path d="M0 116 C 140,90 260,140 400,114 C 540,88 660,140 800,114 C 940,88 1060,140 1200,112 C 1230,106 1258,110 1280,104 L1280 150 L0 150 Z" fill="url(#wave1)" fill-opacity="0.5"/>
+</svg>

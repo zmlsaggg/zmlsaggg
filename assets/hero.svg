@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-label="zmlsaggg — Leksika, язык программирования на русском">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0314"/>
+      <stop offset="0.5" stop-color="#130726"/>
+      <stop offset="1" stop-color="#0B0417"/>
+    </linearGradient>
+
+    <linearGradient id="ink" x1="70" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5D0FE"/>
+      <stop offset="0.42" stop-color="#D8B4FE"/>
+      <stop offset="0.78" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="80" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D946EF"/>
+      <stop offset="0.6" stop-color="#A855F7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="ring" x1="930" y1="0" x2="1160" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E879F9"/>
+      <stop offset="0.55" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+
+    <radialGradient id="orbA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#7C3AED" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E879F9" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#D946EF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="fade" cx="0.5" cy="0.5" r="0.62">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.72" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#A855F7" stop-opacity="0.55"/>
+      <stop offset="0.7" stop-color="#D946EF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#D946EF" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#C084FC" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+
+    <mask id="gridMask">
+      <rect width="1280" height="320" fill="url(#fade)"/>
+    </mask>
+
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+
+    <filter id="tight" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- base -->
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <!-- ambient light -->
+  <ellipse cx="1074" cy="120" rx="330" ry="250" fill="url(#orbA)"/>
+  <ellipse cx="70" cy="330" rx="300" ry="190" fill="url(#orbB)"/>
+  <ellipse cx="600" cy="-40" rx="380" ry="150" fill="url(#orbA)" opacity="0.35"/>
+
+  <!-- frame details -->
+  <rect x="0.5" y="0.5" width="1279" height="319" stroke="url(#edge)" stroke-opacity="0.55"/>
+  <path d="M28 76V34a6 6 0 0 1 6-6h42" stroke="#C084FC" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M1252 76V34a6 6 0 0 0-6-6h-42" stroke="#C084FC" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 244v42a6 6 0 0 0 6 6h42" stroke="#C084FC" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round"/>
+  <path d="M1252 244v42a6 6 0 0 1-6 6h-42" stroke="#C084FC" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- glyph texture -->
+  <text x="838" y="286" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="150" font-weight="700" fill="#A855F7" opacity="0.06">{ }</text>
+
+  <!-- orbit -->
+  <g opacity="0.9">
+    <circle cx="1048" cy="150" r="146" stroke="#A855F7" stroke-opacity="0.11" stroke-dasharray="2 12" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="rotate" from="0 1048 150" to="360 1048 150" dur="90s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1048" cy="150" r="110" stroke="url(#ring)" stroke-opacity="0.35" stroke-dasharray="26 10" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="rotate" from="360 1048 150" to="0 1048 150" dur="55s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1048" cy="150" r="72" stroke="#D8B4FE" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="1048" cy="150" r="72" fill="#A855F7" opacity="0.07"/>
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 1048 150" to="360 1048 150" dur="24s" repeatCount="indefinite"/>
+      <circle cx="1048" cy="40" r="4" fill="#E879F9" filter="url(#tight)"/>
+      <circle cx="1048" cy="40" r="3" fill="#F5D0FE"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360 1048 150" to="0 1048 150" dur="38s" repeatCount="indefinite"/>
+      <circle cx="1158" cy="150" r="3" fill="#C084FC"/>
+      <circle cx="1158" cy="150" r="2" fill="#ffffff" opacity="0.9"/>
+    </g>
+
+    <path d="M1048 108 L1084 150 L1048 192 L1012 150 Z" stroke="url(#ring)" stroke-width="2" fill="#A855F7" fill-opacity="0.12"/>
+    <path d="M1048 126 L1066 150 L1048 174 L1030 150 Z" fill="#D946EF" fill-opacity="0.55" filter="url(#tight)"/>
+    <path d="M1048 126 L1066 150 L1048 174 L1030 150 Z" fill="#F5D0FE" fill-opacity="0.9"/>
+  </g>
+
+  <!-- name -->
+  <text x="80" y="168" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="-2" fill="#A855F7" fill-opacity="0.55" filter="url(#soft)">zmlsaggg</text>
+  <text x="80" y="168" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="-2" fill="url(#ink)">zmlsaggg</text>
+
+  <rect x="82" y="192" width="520" height="2" rx="1" fill="url(#rule)"/>
+
+  <!-- subtitle -->
+  <text x="80" y="228" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing="0.2" fill="#D8B4FE" fill-opacity="0.92">Создаю Leksika — язык программирования на русском</text>
+
+  <!-- chips -->
+  <g font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" font-weight="500">
+    <rect x="80" y="252" width="148" height="34" rx="17" fill="#A855F7" fill-opacity="0.1" stroke="#A855F7" stroke-opacity="0.4"/>
+    <text x="97" y="274" fill="#E9D5FF">@LeksikaLang</text>
+
+    <rect x="242" y="252" width="160" height="34" rx="17" fill="#A855F7" fill-opacity="0.1" stroke="#A855F7" stroke-opacity="0.4"/>
+    <text x="259" y="274" fill="#E9D5FF">C · Go · Python</text>
+
+    <rect x="416" y="252" width="134" height="34" rx="17" fill="#D946EF" fill-opacity="0.1" stroke="#D946EF" stroke-opacity="0.38"/>
+    <text x="433" y="274" fill="#F5D0FE">open source</text>
+
+    <rect x="564" y="252" width="140" height="34" rx="17" fill="#7C3AED" fill-opacity="0.14" stroke="#7C3AED" stroke-opacity="0.5"/>
+    <text x="581" y="274" fill="#E9D5FF">AI agents</text>
+  </g>
+</svg>
