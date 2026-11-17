@@ -18,13 +18,13 @@
 
 - 🔮 **Сейчас** — развиваю **Leksika**: движок, нативное ядро на C11, сайт и браузерную песочницу
 - 🧠 **Исследую** — AI-агенты, локальные LLM, агентные рантаймы и предохранители для кода
-- 🧱 **Пишу на** — C, Go, Python; Ruby — для формул Homebrew
+- 🧱 **Пишу на** — C, Go, Python
 - 🪄 **Верю** — что язык программирования может звучать как родная речь
 
 ## 🧩 Стек
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=c,go,python,ruby,bash,linux,git,github,docker,vim,vscode,js&theme=dark&perline=12" alt="stack" />
+  <img src="https://skillicons.dev/icons?i=c,go,python,git,github,docker,vim,vscode,js&theme=dark&perline=9" alt="stack" />
 </div>
 
 ## 🚀 Проекты
@@ -44,6 +44,33 @@
         <a href="https://leksika.gleeze.com/">Сайт</a> ·
         <a href="https://leksika.gleeze.com/playground.html">Песочница</a> ·
         <a href="https://github.com/zmlsaggg/Leksika">Код</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>State Sandbox</h3>
+      <p>Экспериментальная игра-симуляция: LLM разыгрывают экономику, медиа, преступность и экологию, а вы проводите политику и смотрите на последствия.</p>
+      <p>
+        <a href="https://github.com/zmlsaggg/state-sandbox2"><img src="https://img.shields.io/github/stars/zmlsaggg/state-sandbox2?style=flat-square&label=stars&labelColor=180A2E&color=A855F7&logo=github&logoColor=white" alt="stars" /></a>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=180A2E" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/LLM-7C3AED?style=flat-square&labelColor=180A2E" alt="LLM" />
+        <img src="https://img.shields.io/badge/Vercel-C084FC?style=flat-square&logo=vercel&logoColor=white&labelColor=180A2E" alt="Vercel" />
+      </p>
+      <p>
+        <a href="https://state-sandbox2.vercel.app/">Играть</a> ·
+        <a href="https://github.com/zmlsaggg/state-sandbox2">Код</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Server</h3>
+      <p>Сервер слотов на Go: выдача игр CT Interactive, Novomatic, NetEnt и BetSoft, сканер барабанов и наборы рилсов под разный RTP.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=180A2E" alt="Go" />
+        <img src="https://img.shields.io/badge/fork-A855F7?style=flat-square&logo=github&logoColor=white&labelColor=180A2E" alt="fork" />
+      </p>
+      <p>
+        <a href="https://github.com/zmlsaggg/server">Код</a>
       </p>
     </td>
     <td width="50%" valign="top">
